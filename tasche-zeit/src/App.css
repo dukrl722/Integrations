@@ -1,23 +1,41 @@
 .App {
-  display: flex;
-  flex-flow: column;
-  border: 1px solid #000;
-  text-align: center;
-  background-color:rgb(69, 116, 117);
-  color:antiquewhite;
-  width: 50%;
-  margin: 0 auto;
+  flex: auto;
+  position: relative;
+  width: 1440px;
+  height: 820px;
+  background: #F7F8FA;
 }
 
 .App .title {
-  font-size: large;
+  position: absolute;
+  width: 235px;
+  height: 56px;
+  left: 315px;
+  top: 82px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+
+  color: #000000;
 }
 
-.App .version {
-  font-style: italic;
-}
+.App .description {
+  position: absolute;
+  width: 562px;
+  height: 148px;
+  left: 161px;
+  top: 215px;
 
-.App .footer{
-  text-align: left;
-  font-style: italic;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+
+  color: #000000;
 }
