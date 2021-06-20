@@ -1,3 +1,19 @@
 .App {
+  display: flex;
+  flex-flow: column;
+  border: 1px solid #000;
   text-align: center;
+  background-color:rgb(69, 116, 117);
+  color:antiquewhite;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.App .version {
+  font-style: italic;
+}
+
+.App .footer{
+  text-align: left;
+  font-style: italic;
 }
