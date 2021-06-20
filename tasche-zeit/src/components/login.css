@@ -1,10 +1,9 @@
 .pageLogin {
-    flex: 1;
     position: absolute;
-    width: 548px;
-    height: 820px;
-    left: 892px;
-    top: 1px;
+    width: 647px;
+    height: 657px;
+    left: 700px;
+    top: 1.5px;
     border-radius: 5px;
 
     background: #8257E5;
@@ -14,7 +13,7 @@
     position: absolute;
     left: 37.23%;
     right: 40.88%;
-    top: 18.05%;
+    top: 15%;
     bottom: 75.12%;
 
     font-family: Roboto;
@@ -29,7 +28,8 @@
 
 .pageLogin .login_input {
     position: absolute;
-    left: 17.34%;
+    width: 400px;
+    left: 20.54%;
     right: 17.52%;
     top: 34.02%;
     bottom: 57.56%;
@@ -42,7 +42,8 @@
 
 .pageLogin .pass_input {
     position: absolute;
-    left: 17.34%;
+    width: 400px;
+    left: 20.54%;
     right: 17.52%;
     top: 50%;
     bottom: 41.59%;
@@ -55,7 +56,8 @@
 
 .pageLogin .continue {
     position: absolute;
-    left: 17.34%;
+    width: 380px;
+    left: 22.54%;
     right: 17.52%;
     top: 72.32%;
     bottom: 19.27%;
@@ -66,9 +68,9 @@
 
 .pageLogin a{
     position: absolute;
-    left: 17.52%;
-    right: 56.2%;
-    top: 60%;
+    left: 15.52%;
+    right: 45.2%;
+    top: 61%;
     bottom: 37.44%;
 
     font-family: Roboto;
@@ -84,7 +86,7 @@
 .pageLogin .signUp {
     position: absolute;
     left: 17.15%;
-    right: 37.04%;
+    right: 30%;
     top: 88.29%;
     bottom: 9.15%;
 
