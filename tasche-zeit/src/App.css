@@ -9,6 +9,10 @@
   margin: 0 auto;
 }
 
+.App .title {
+  font-size: large;
+}
+
 .App .version {
   font-style: italic;
 }

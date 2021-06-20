@@ -4,7 +4,7 @@ import Login from './components/login';
 function App() {
   return (
       <div className="App">
-        <h1>Tasche Zeit</h1>
+        <h1 className="title">Tasche Zeit</h1>
         <h2>A simple and pratical time-manager for those who want to be organized</h2>
         <p className="version">Currently on version 0.1</p>
 

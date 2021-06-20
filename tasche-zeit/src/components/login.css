@@ -1,8 +1,33 @@
 .pageLogin {
-    border: 1px solid #000;
     width: fit-content;
-    display: flex;
-    flex-flow: column;
+    display: block;
     margin: 0 auto;
 }
 
+.pageLogin .login {
+    text-align: justify;
+    padding-bottom: 5px;
+    text-decoration: solid;
+}
+.pageLogin .login .login_input {
+    padding-left: 0%;
+    text-align: justify;
+    margin-left: 35px;
+}
+
+.pageLogin .password {
+    padding-top: 5px;
+    text-align: justify;
+    text-decoration: solid;
+}
+
+.pageLogin .password .pass_input {
+    margin-left: 10px;
+    text-align: justify;
+}
+
+.pageLogin .logButton {
+    margin-top: 5px;
+    margin-right: 100%;
+    padding: 5px 10px;
+}
