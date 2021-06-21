@@ -1,10 +1,13 @@
 //import './App.css';
 import Login from './components/login';
+import Indice from './components/indice';
+import {Route, Link} from 'react-router-dom';
 
 function App() {
   return (
       <div className="App">
-        <Login />
+        <Route exact path="/" component={Login} />
+        <Route exact path="/index" component={Indice} />
       </div>
   );
 }
