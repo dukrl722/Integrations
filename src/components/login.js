@@ -5,7 +5,7 @@ export default function Login(){
     return (
         <div>
             <div className="titulo">
-                <h1 className="title">Tasche Zeit</h1>
+                <h1 className="title">TascheZeit</h1>
                 <h2 className="description">A simple and pratical time-manager <br/> for those who want to be organized</h2>
             </div>
             <div className="PLogin">
@@ -17,7 +17,7 @@ export default function Login(){
                 <button className="continue">Continue</button>
 
                 <p className="signUp">
-                    Dont have an account?
+                    Don't have an account?
                     <button>Sign Up</button>
                 </p>
             </div>
